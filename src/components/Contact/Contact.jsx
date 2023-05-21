@@ -1,7 +1,7 @@
 // importing css
 import "./Contact.css";
 
-import Img from "../../assets/mail.jpeg";
+import Img from "../../assets/mail.jpg";
 import Footer from "../Footer/Footer";
 
 function Contact() {

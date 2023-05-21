@@ -15,7 +15,7 @@ const Home = () => {
             We are putting knowledge in motion, and innovation in action.
           </p>
           <Link to="/Team">
-            <button className="btninside">Meet the team</button>
+            <button className="btninside">Meet the team.</button>
           </Link>
         </div>
 
