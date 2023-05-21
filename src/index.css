@@ -1,0 +1,9 @@
+@import "./components/navbar.css"
+@import "./components/home_section.css"
+@import "./components/Contact.css"
+@import "./components/Team.css"
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
