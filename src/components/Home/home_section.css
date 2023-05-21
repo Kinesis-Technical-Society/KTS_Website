@@ -47,14 +47,13 @@
 
 .btninside {
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  height: 38px;
+  font-size: 18px;
+  height: 40px;
   color: black;
   background: #ffc100;
-  border-radius: 14px;
-  border: 2px solid;
+  border-radius: 10px;
+  border: 1px solid;
   transform: scale(1);
   transition: all 0.2s ease-in-out;
 }

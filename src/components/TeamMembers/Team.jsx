@@ -72,7 +72,7 @@ const Team_Member = () => {
             <img src={TeamTag} alt="" />
           </div>
           <div className="Team_Item_1 Team_Item">
-            <h3 className="Team_Title">The Team</h3>
+            <h3 className="Team_Title">The Team.</h3>
             <p style={{ width: "343px" }} className="Team_Descript_1">
               Together, we push boundaries, challenge norms, and create
               solutions that shape the future.
