@@ -1,11 +1,12 @@
-import React from "react";
-import Img from "../../assets/mail.jpeg";
+// importing css
 import "./Contact.css";
-import Footer from "../Foooter/Footer";
+
+import Img from "../../assets/mail.jpeg";
+import Footer from "../Footer/Footer";
 
 function Contact() {
   return (
-    <div >
+    <div>
       <div className="box">
         <div className="box1">
           <p className="he">Contact Us.</p>

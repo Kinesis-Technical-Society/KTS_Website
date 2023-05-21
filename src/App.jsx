@@ -1,19 +1,14 @@
-import { useState } from "react";
-
-// import './App.css'
-import MainSection from "./components/Home/MainSection";
-import Contact from "./components/Contact/Contact";
-
-import Home from "./components/Home/home_section";
-import Team_Member from "./components/TeamMembers/Team";
+// importing components
 import Header from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
-import Footer from "./components/Foooter/Footer";
+
+// importing pages
 import Project from "./components/Project/Project";
+import Contact from "./components/Contact/Contact";
+import Home from "./components/Home/home_section";
+import Team_Member from "./components/TeamMembers/Team";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
@@ -24,7 +19,6 @@ function App() {
           <Route path="Contact" element={<Contact />} />
           <Route path="Projects" element={<Project />} />
         </Routes>
-      
       </div>
     </>
   );
