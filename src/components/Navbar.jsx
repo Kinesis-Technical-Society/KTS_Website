@@ -1,9 +1,12 @@
+// importing css
+import "./Navbar.css";
+
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { RiMenuFill } from "react-icons/ri";
-import "./Navbar.css";
 
+// available nav links
 const navLinks = [
   {
     display: "Home",
@@ -14,15 +17,16 @@ const navLinks = [
     url: "/Contact",
   },
 
-  {
-    display: "Projects",
-    url: "/Projects",
-  },
+  // {
+  //   display: "Projects",
+  //   url: "/Projects",
+  // },
   {
     display: "Team",
     url: "/Team",
   },
 ];
+
 const gettotop = () => {
   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 };

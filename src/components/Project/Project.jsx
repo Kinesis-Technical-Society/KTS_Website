@@ -1,5 +1,4 @@
-import React from "react";
-import Footer from "../Foooter/Footer";
+import Footer from "../Footer/Footer";
 
 function Project() {
   return (
