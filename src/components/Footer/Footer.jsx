@@ -3,7 +3,7 @@ import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 import Youtube from "../../assets/Youtube.png";
 import instagram from "../../assets/Instagram.png";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo-black.png";
 
 function Footer() {
   return (
@@ -25,7 +25,7 @@ function Footer() {
         </div>
         <div className="flex flex-1 justify-center items-center">
           <div className="flex flex-col items-center">
-            <img height={60} width={60} src={logo} alt="kts logo" />
+            <img height={70} width={60} src={logo} alt="kts logo" />
             <div className="ml-2 text-xl md:text-2xl font-semibold">
               Communicate. Collaborate. Create
             </div>
@@ -36,28 +36,48 @@ function Footer() {
           <div>
             <div className="sm:mx-2 flex my-2 items-center ">
               <img height={30} width={30} src={linkedin} alt="linkedin" />
-              <a className="text-black ml-2" href="#">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="text-black ml-2"
+                href="https://www.linkedin.com/company/kinesis-technical-society"
+              >
                 LinkedIn
               </a>
             </div>
 
             <div className="sm:mx-2 flex my-2 items-center ">
               <img height={30} width={30} src={instagram} alt="instagram" />
-              <a className="text-black ml-2" href="#">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="text-black ml-2"
+                href="https://www.instagram.com/kinesis_technical_society/"
+              >
                 Instagram
               </a>
             </div>
 
             <div className="sm:mx-2 flex my-2 items-center">
               <img height={30} width={30} src={github} alt="github" />
-              <a className="text-black ml-2" href="#">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="text-black ml-2"
+                href="https://github.com/Kinesis-Technical-Society"
+              >
                 GitHub
               </a>
             </div>
 
             <div className="sm:mx-2 flex my-2 items-center ">
               <img height={30} width={30} src={Youtube} alt="youtube" />
-              <a className="text-black ml-2" href="#">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                className="text-black ml-2"
+                href="https://www.youtube.com/@KinesisTechnicalSociety"
+              >
                 Youtube
               </a>
             </div>
