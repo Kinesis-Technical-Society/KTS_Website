@@ -55,7 +55,7 @@ function MainSection() {
         </div>
 
         <div className="sm:mx-3 my-5 sm:absolute sm:top-[120rem] sm:left-[60px]">
-          <p className="text-4xl font-bold">The World Of The Street.</p>
+          <p className="text-4xl font-bold">The Word Of The Street.</p>
           <div className=" ml-14 sm:flex sm:justify-center sm:items-center sm:gap-8 my-6 sm:ml-0">
             <p className="text-md text-justify sm:w-[40%] font-Heebo font-medium">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
